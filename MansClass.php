@@ -1,35 +1,28 @@
-<?php 
-
+<?php
 
 /**
-* Mans Class
-*/
-class MainClass
-{
+ * Mans Class
+ */
+class MainClass {
 
 	protected $name;
 	protected $msg;
-	
-	public function setName()
-	{
+
+	public function setName() {
 		return $this->name;
 	}
 
-	public function getName()
-	{
+	public function getName() {
 		return $this->name;
 	}
 
-	public function checkName()
-	{
+	public function checkName() {
 		if ($this->name == '') {
 			$msg = 'Empty';
-		}else {
+		} else {
 			$msg = 'Your Name: ' . $this->name;
 		}
 
 		return $msg;
 	}
 }
-
-?>
